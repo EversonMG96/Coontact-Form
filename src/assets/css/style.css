@@ -14,6 +14,7 @@
     align-items: center;
     justify-content: space-between;
     flex-direction:row-reverse;
+    background-color: hotpink;
 }
 
 .img {
@@ -25,13 +26,12 @@
 }
 
 .img img {
-    width: 300px;
+    width: 200px;
     height: 300px;
-    
 }
 
 .form {
-    background: #ff0;
+    /*background: #ff0;*/
     width: 100%;
     display: flex;
 }
@@ -40,4 +40,24 @@
     display: flex;
     flex-direction: column;
     margin: auto;
+    gap: 1rem;
+}
+
+.form form input {
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+}
+
+.form form textarea {
+    border: none;
+    border-radius: 10px;
+}
+
+.form form button {
+    width: 40%;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
 }
